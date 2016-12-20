@@ -1,0 +1,103 @@
+html,
+body,
+div,
+p,
+ul,
+li,
+a,
+img {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("img/clouds.jpg");
+    background-size: 80%;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+#wrapper {
+    position: relative
+}
+h1 {
+    position: absolute;
+    font-size: 6.2em;
+    color: #ff9900;
+    left: 35%;
+    top: 40px;
+}
+h3 {
+    position: absolute;
+    font-size: 3em;
+    color: #ff0000;
+    left: 55%;
+    top: 180px;
+}
+/*Menu*/
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #ff3300;
+}
+li {
+    border: 2px solid #fff;
+    display: inline-block;
+    background-image: url("img/clouds.jpg");
+    background-size: 60%;
+    padding: 1%;
+}
+ul {
+    margin-left: 15%;
+}
+/*End of Menu*/
+
+main {
+    position: absolute;
+    left: 15%;
+    background-image: url("img/ltbl2.jpg");
+    background-size: 100%;
+    width: 70%;
+    height: 2800px;
+    border: 2px solid #fff;
+}
+#firstinf p {
+    position: absolute;
+    color: #fff;
+    font-size: 2.0em;
+    width: 50%;
+    right: 0%;
+    top: 155px;
+}
+#secondinf p {
+    position: absolute;
+    color: #fff;
+    font-size: 2.0em;
+    width: 50%;
+    right: 0%;
+    top: 855px;
+}
+#thirdinf p {
+    position: absolute;
+    color: #fff;
+    font-size: 2.0em;
+    width: 50%;
+    right: 0%;
+    top: 1620px;
+}
+#fourtinf p {
+    position: absolute;
+    color: #fff;
+    font-size: 2.0em;
+    width: 50%;
+    right: 0%;
+    top: 2000px;
+}
+#fifthinf p {
+    position: absolute;
+    color: #fff;
+    font-size: 2.0em;
+    width: 50%;
+    right: 0%;
+    top: 2555px;
+}
